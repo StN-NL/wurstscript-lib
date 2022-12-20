@@ -1,0 +1,8 @@
+---
+projectName: wurst-lib
+dependencies:
+- https://github.com/wurstscript/wurstStdlib2
+buildMapData:
+  name: wurst-lib
+  fileName: wurst-lib
+  author: stn
