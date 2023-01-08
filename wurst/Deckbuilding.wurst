@@ -1,0 +1,10 @@
+package Deckbuilding
+import ClosureFrames
+
+// UI Frame
+
+init
+    createFrame("GLUEBUTTON", "Frame", GAME_UI, 0)
+        ..onClick(() -> print("The button was clicked."))
+        ..onMouseEnter(() -> print("The mouse is on the button."))
+        ..onMouseLeave(() -> print("The mouse left the button."))
